@@ -38,3 +38,72 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/your-username/weather_track.git
    cd weather_track
+
+2. **Install dependencies:**
+
+   ```bash
+   flutter pub get
+
+3. **Set up the OpenWeatherMap API Key:**
+   
+   Sign up at OpenWeatherMap to get your API key.
+
+   Create a .env file in the root of the project and add your API key as follows:
+
+   ```bash
+   OPENWEATHERMAP_API_KEY=your_api_key_here
+
+4. **Run the app:**
+   Ensure you have an emulator running or a device connected, then execute:
+   ```bash
+   flutter run
+
+## Dependencies
+
+   ```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  flutter_spinkit: ^5.2.1
+  weather_icons: 3.0.0
+  provider: ^6.0.0
+  flutter_dotenv: ^5.0.2
+  shared_preferences: ^2.2.3
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+   ```
+
+## Additional Notes
+   The app is designed for educational purposes and showcases basic Flutter app development and API integration.
+   For any issues or feature requests, please open an issue on the GitHub repository.
+
+
+## Contributing
+      
+   Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any         contributions you make are greatly appreciated.
+   
+   Fork the Project
+   Create your Feature Branch (git checkout -b feature/AmazingFeature)
+   Commit your Changes (git commit -m 'Add some AmazingFeature')
+   Push to the Branch (git push origin feature/AmazingFeature)
+   Open a Pull Request
+
+## Acknowledgments
+   OpenWeatherMap for providing the weather data API.
+   
+   Flutter for the amazing framework.
+   
+   
+
+   
+   
+
+
+
+
+
